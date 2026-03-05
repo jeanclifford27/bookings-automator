@@ -1,0 +1,14 @@
+{
+  "name": "bookings-automator",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "npx playwright install chromium --with-deps",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "playwright": "^1.43.0"
+  }
+}
